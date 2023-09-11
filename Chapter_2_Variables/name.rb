@@ -5,7 +5,7 @@ puts name + ", nice to see you around these parts!"
 
 # print the name of user 10 times in a row
 puts "Exercise 3"
-10.times do puts name end
+10.times {puts name}
 
 # ask user for first name, save to variable
 # do same for last name
