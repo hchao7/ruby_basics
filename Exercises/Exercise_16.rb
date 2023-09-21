@@ -10,3 +10,13 @@ contacts = contacts.each do |k, v|
 end 
 
 puts contacts
+
+contacts.each_with_index do |(key), index|
+  puts index
+	puts "Yo #{key} is number #{index} in the array"
+end
+
+puts contacts
+
+s = 'abc def ghi,jkl mno pqr,stu vwx yz'
+puts s.split.inspect
